@@ -131,102 +131,19 @@ a{
     width: 66%;
     height: 200px;
     margin-right: 10px;
+    background: #8C8;
+    border-radius: 5px;
+    counter-increment: gallery-cell;
   }
   .carousel-cell:before {
     display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
   }
   #nav3{
     display: flex;
   }
-  #middle1{
-    width: 80%;
-    margin: auto;
-    margin-top: 60px;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 15px;
-  }
-  .cards{
-    display: flex;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-bottom: 20px;
-  }
-  #middle1 img{
-    width: 30%;
-  }
-  .cards>div{
-    margin-left: 20px;
-  }
-  .cards>div>h4{
-    color: #15457c;
-    position: relative;
-    left: 200px;
-  }
-  #middle>h1{
-    color: #15457c;
-    position: relative;
-    top: 20px;
-    left: 100px;
-  }
-  #middle{
-    width: 80%;
-    margin: auto;
-    margin-top: 60px;
-  }
-  #middle2{
-    display: flex;
-    width: 80%;
-    margin: auto;
-    margin-top: 20px;
-  }
-  .cards1{
-    margin-top: 20px;
-    width: 33%;
-    display: flex;
-    justify-content: space-around;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-  }
-  #middle3{
-    width: 80%;
-    margin: auto;
-    margin-top: 25px;
-  }
-  #middle3>img{
-    width: 100%;
-  }
-#middle4{
-    width: 80%;
-    margin: auto;
-}
-#h{
-    display: flex;
-    border: 1px solid red;
-    /* background-color: red; */
-    height: 200px;
-}
-#h img{
-    margin-top: 40px;
-    margin-left: 20px;
-    mix-blend-mode: multiply;
-    width: 20%;
-    height: 60%;
-}
-#h>div:nth-child(1){
-    width: 110%;
-    border-right: 1px solid gray;
-
-}
-#h>div:nth-child(1)>p{
-    position: relative;
-    bottom: 90px;
-    left: 190px;
-}
-#h button{
-    color: #15457c;
-}
-#h>div:nth-child(2)>img{
-    width: 40%;
-    height: 170px;
-}
-
     
