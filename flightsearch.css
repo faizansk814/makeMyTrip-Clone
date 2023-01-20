@@ -1,0 +1,43 @@
+#flight{
+    background-color: #000033;
+}
+.cont{
+    display: flex;
+}
+#low{
+    color: white;
+    margin-top: 20px;
+    
+}
+#flight>h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#main{
+    width: 50%;
+    margin: auto;
+}
+.maincard{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.maincard img{
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
+    width: 20%;
+    height: 40%;
+}
+.maincard>div:nth-child(1){
+    display: flex;
+}
+.maincard>div{
+    margin-left: 20px;
+}
+.maincard>h3{
+    position: relative;
+    left: 670px;
+    color: blue;
+}

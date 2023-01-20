@@ -16,6 +16,10 @@
     width: 25%;
     
 }
+#low{
+  padding-bottom: 70px;
+  margin-top: 30px;
+}
 #b>div{
     display: flex;
     border-right: 1px dashed gray;
@@ -194,39 +198,108 @@ a{
   #middle3>img{
     width: 100%;
   }
-#middle4{
+  .swiper {
+    width:80%;
+    height: 300px;
+    display: flex;
+  }
+  .container img{
+    width: 100%;
+    height: 240px;
+  }
+  .container{
+    width: 100%;
+  }
+  #middle4{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin-top: 40px;
     width: 80%;
     margin: auto;
-}
-#h{
-    display: flex;
-    border: 1px solid red;
-    /* background-color: red; */
-    height: 200px;
-}
-#h img{
-    margin-top: 40px;
-    margin-left: 20px;
-    mix-blend-mode: multiply;
-    width: 20%;
-    height: 60%;
-}
-#h>div:nth-child(1){
-    width: 110%;
-    border-right: 1px solid gray;
-
-}
-#h>div:nth-child(1)>p{
+    border-radius: 20px;
+  }
+  #middle4>h1{
     position: relative;
-    bottom: 90px;
-    left: 190px;
-}
-#h button{
+    left: 60px;
+    padding-top: 20px;
+  }
+  #middle5{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin-top: 40px;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+  }
+  #middle5>h1{
+    position: relative;
+    left: 60px;
+    padding-top: 20px;
+  }
+  #footer{
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+  }
+  .foot>p{
+    font-size: 15px;
+    font-weight: 100;
+  }
+  .foot>h5{
+    color: black;
+  }
+  .foot>p:hover{
     color: #15457c;
-}
-#h>div:nth-child(2)>img{
-    width: 40%;
-    height: 170px;
-}
+  }
+  .foot>h5:hover{
+    color: #15457c;
+  }
+  #footer2{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ECEFF1;
+    margin-top: 80px;
+  }
+  .foot1{
+    margin-top: 30px;
+    width: 25%;
+  }
+ .foot2{
+  width: 25%;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 60px;
+ }
+ .foot2>a>img{
+  width: 50%;
+ }
+ #footer3{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.822);
+ }
+ #footer3>div:nth-child(2)>p,h5{
+  color: white;
+ }
+ #footer3>div:nth-child(2){
+  margin-right: 60px;
+ }
+ #search{
+  /* border: 2px solid red; */
+  width: 10%;
+  padding: 8px 10px 8px 10px;
+  background-color:#03A9F4;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  left: 690px;
+  bottom: 85px;
+ }
+ #search>a{
+  color: white;
+  font-size: 25px;
+ }
+
+
 
     
