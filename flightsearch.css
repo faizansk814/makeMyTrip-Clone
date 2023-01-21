@@ -17,27 +17,19 @@
     width: 50%;
     margin: auto;
 }
-.maincard{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 2px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-.maincard img{
-    margin-top: 20px;
-    margin-right: 10px;
-    margin-left: 20px;
-    width: 20%;
-    height: 40%;
-}
-.maincard>div:nth-child(1){
+#main>div{
     display: flex;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin-top: 30px;
 }
-.maincard>div{
+#main>div>div{
+    width: 20%;
     margin-left: 20px;
 }
-.maincard>h3{
-    position: relative;
-    left: 670px;
-    color: blue;
+#main a{
+    text-decoration: none;
+}
+#filter{
+    width: 10%;
+    font-size: 20px;
 }
