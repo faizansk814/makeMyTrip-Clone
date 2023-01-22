@@ -1,12 +1,18 @@
 #flight{
-    background-color: #000033;
+    background-image: linear-gradient(to bottom,#051322,#15457c);
 }
 .cont{
     display: flex;
+    margin-left: 100px;
+    color: white;
+}
+.cards{
+    width: 10%;
 }
 #low{
     color: white;
     margin-top: 20px;
+    margin-left: 100px;
     
 }
 #flight>h1{
@@ -32,4 +38,8 @@
 #filter{
     width: 10%;
     font-size: 20px;
+}
+h1{
+    color: white;
+    margin-left: 340px;
 }

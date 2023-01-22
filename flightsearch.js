@@ -27,6 +27,25 @@ filterel.addEventListener("change",function(){
         display(filtered)
     }
 })
+let sortel=document.getElementById("Sort")
+sortel.addEventListener("change",function(){
+    if(sortel.value==""){
+        display(fetched)
+    }
+    if(sortel.value=="High"){
+        fetched.sort(function(a,b){
+            return b.blackText3-a.blackText3
+        })
+        display(fetched)
+    }
+    if(sortel.value=="Low"){
+        fetched.sort(function(a,b){
+            return a.blackText3-b.blackText3
+        })
+        display(fetched)
+
+    }
+})
 
 
 
@@ -59,7 +78,7 @@ function display(data){
         ticket.innerText="Book Tickets"
         let book=document.createElement("a")
         book.innerText="Book Now"
-        book.href="https://www.makemytrip.com/flight/search?itinerary=DEL-BLR-16/02/2023&tripType=O&paxType=A-9_C-1_I-4&intl=false&cabinClass=E&ccde=IN&lang=eng&isGrpBkg=true"
+        book.href="./form.html"
         div1.append(name,code)
         div2.append(dep,deptime)
         div3.append(ret,rettime)

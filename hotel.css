@@ -1,57 +1,68 @@
 
-.nav1{
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin: auto;
-    /* border: 2px solid red; */
-}
 #parent{
-    background-color: #15457c;
+    background-image: linear-gradient(to bottom,#051322,#15457c);
+    height: 530px;
 }
-#b{
-    display: flex;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+#low{
+  padding-bottom: 70px;
+  margin-top: 30px;
 }
-#a>img{
-    width: 25%;
-    
+*{
+  font-family: 'Lato', sans-serif;
 }
-#b>div{
-    display: flex;
-    border-right: 1px dashed gray;
-    margin-right: 5px;
+span{
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 5px;
 }
-#b>div>img{
-    width: 20%;
-    height: 40%;
-    margin-top: 20px;
-    margin-left: 7px;
+.g{
+  border: none;
 }
-#b>div>div{
-    margin-left: 15px;
-    margin-right: 8px;
-}
-#b>div>div>p{
-    line-height: 5px;
-    /* font-size: 10px; */
+.g>p{
+    font-size: 5px;
 }
 #d>div:nth-child(1){
-    width: 20%;
+    width: 27%;
     display: flex;
     justify-content: space-between;
+    padding-top: 80px;
+    margin-left: 30px;
+    margin-bottom: 20px;
     /* border: 2px solid red; */
-   padding-top: 80px;
-   margin-left: 30px;
+}
+#nav1{
+  display: flex;
+  justify-content: space-evenly;
+}
+#b{
+  display: flex;
+  color: white;
+}
+#b img{
+  width: 55%;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+#b h4{
+  line-height: 2px;
+}
+#b>div:nth-child(2){
+  margin-left: 20px;
 }
 
 .q{
     display: flex;
     /* justify-content: space-between; */
     margin-top: 30px;
+    width: 95%;
+    margin: auto;
+    height: 200px;
 
 }
 .q>div{
-    border: 2px solid red;
+  border-radius: 5px;
+  border: 0.3px solid gainsboro;
 }
 .q>div:hover{
     background-color: rgb(173, 230, 225);
@@ -67,8 +78,12 @@
     background-color: white;
     border-radius: 20px;
     margin-bottom: 50px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-top: 0px
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    margin-top: 0px;
+    height: 330px;
+}
+#d>div>div{
+  height: 150px;
 }
 #e{
     padding: 0px;
@@ -82,7 +97,6 @@
     width: 25%;
     padding-left: 10px;
     padding-top: 10px;
-    margin-top: 10px;
 }
 #e{
     display: flex;
@@ -94,7 +108,14 @@
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     position: relative;
-    top: 25px;
+    top: 15px;
+}
+#ew>img{
+    width: 60%;
+    margin-top: 60px;
+    margin-left: 260px;
+
+    
 }
 #e>div{
     border-right: 1px solid gray;
@@ -102,29 +123,29 @@
     display: flex;
 }
 #s{
-    width: 60%;
-    display: flex;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    position: relative;
-    top: 30px;
-    left: 330px;
-  }
-  #s>div{
-    width: 10%;
-  }
-  #s h3{
-    font-size: 14px;
-  }
-  #s img{
-    margin-top: 15px;
-    margin-left: 30px;
-    width: 29%;
-  }
+  width: 60%;
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+  top: 30px;
+  left: 270px;
+  height: 70px;
+}
+#s>div{
+  width: 10%;
+}
+#s h3{
+  font-size: 9px;
+}
+#s img{
+  margin-top: 15px;
+  margin-left: 30px;
+  width: 29%;
+}
 a img{
     width: 50%;
-    mix-blend-mode: multiply;
     margin-top: 5px;
     margin-left: 20px;
     margin-top: 5px;
@@ -137,4 +158,164 @@ a{
   #nav3{
     display: flex;
   }
+  #middle1{
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+  }
+  .cards{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 20px;
+  }
+  #middle1 img{
+    width: 30%;
+  }
+  .cards>div{
+    margin-left: 20px;
+  }
+  .cards>div>a{
+    color: #15457c;
+    position: relative;
+    left: 200px;
+  }
+  #middle>h1{
+    color: #15457c;
+    position: relative;
+    top: 20px;
+    left: 100px;
+  }
+  #middle{
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+  }
+  #middle2{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .cards1{
+    margin-top: 20px;
+    width: 33%;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  #middle3{
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+  }
+  #middle3>img{
+    width: 100%;
+  }
+  .swiper {
+    width:80%;
+    height: 300px;
+    display: flex;
+  }
+  .container img{
+    width: 100%;
+    height: 200px;
+  }
+  .container{
+    width: 100%;
+  }
+  #middle4{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin-top: 40px;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+  }
+  #middle4>h1{
+    position: relative;
+    left: 60px;
+    padding-top: 20px;
+  }
+  #middle5{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin-top: 40px;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+  }
+  #middle5>h1{
+    position: relative;
+    left: 60px;
+    padding-top: 20px;
+  }
+  #footer{
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+  }
+  .foot>p{
+    font-size: 15px;
+    font-weight: 100;
+  }
+  .foot>h5{
+    color: black;
+  }
+  .foot>p:hover{
+    color: #15457c;
+  }
+  .foot>h5:hover{
+    color: #15457c;
+  }
+  #footer2{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ECEFF1;
+    margin-top: 80px;
+  }
+  .foot1{
+    margin-top: 30px;
+    width: 25%;
+  }
+ .foot2{
+  width: 25%;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 60px;
+ }
+ .foot2>a>img{
+  width: 50%;
+ }
+ #footer3{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.822);
+ }
+ #footer3>div:nth-child(2)>p,h5{
+  color: white;
+ }
+ #footer3>div:nth-child(2){
+  margin-right: 60px;
+ }
+ #search{
+  /* border: 2px solid red; */
+  width: 10%;
+  padding: 8px 10px 8px 10px;
+  background-color:#03A9F4;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  left: 590px;
+  bottom: 75px;
+ }
+ #search>a{
+  color: white;
+  font-size: 15px;
+ }
+
+
+
     

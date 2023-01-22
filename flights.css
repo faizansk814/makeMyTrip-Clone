@@ -1,61 +1,64 @@
 
-.nav1{
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin: auto;
-    /* border: 2px solid red; */
-}
 #parent{
-    background-color: #15457c;
+    background-image: linear-gradient(to bottom,#051322,#15457c);
+    height: 630px;
 }
-#b{
-    display: flex;
-    width: 50%;
-    /* border: 2px solid red; */
-}
-#b>div>img{
-  margin-top: 20px;
-  width: 20%;
-  height: 35%;
-}
-#b>div{
-  width: 30%;
-  /* border: 2px solid red; */
-  display: flex;
-  height: 50%;
-  border-right: 1px dashed gray;
-}
-#b>div>div{
-  /* border: 2px solid red; */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+#low{
+  margin-top: 15px;
   margin-left: 20px;
+}
+*{
+  font-family: 'Lato', sans-serif;
+}
+span{
+  font-size: 40px;
+  font-weight: 900;
   line-height: 5px;
 }
-#a>img{
-    width: 25%;
-    
-}
-#low{
-  padding-bottom: 70px;
-  margin-top: 30px;
+.g{
+  border: none;
 }
 #d>div:nth-child(1){
-    width: 20%;
+    width: 27%;
     display: flex;
     justify-content: space-between;
     /* border: 2px solid red; */
-   padding-top: 80px;
+   padding-top: 50px;
    margin-left: 30px;
+   margin-bottom: 20px;
+}
+#nav1{
+  display: flex;
+  justify-content: space-evenly;
+}
+#b{
+  display: flex;
+  color: white;
+}
+#b img{
+  width: 50%;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+#b h4{
+  line-height: 1px;
+}
+#b>div:nth-child(2){
+  margin-left: 20px;
 }
 
 .q{
     display: flex;
     /* justify-content: space-between; */
     margin-top: 30px;
+    width: 95%;
+    margin: auto;
 
 }
 .q>div{
-    border: 2px solid red;
+  border-radius: 5px;
+  border: 0.3px solid gainsboro;
 }
 .q>div:hover{
     background-color: rgb(173, 230, 225);
@@ -72,7 +75,12 @@
     border-radius: 20px;
     margin-bottom: 50px;
     /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-    margin-top: 0px
+    height: 330px;
+    position: relative;
+    bottom: 75px;
+}
+#d>div>div{
+  height: 150px;
 }
 #e{
     padding: 0px;
@@ -86,7 +94,6 @@
     width: 25%;
     padding-left: 10px;
     padding-top: 10px;
-    margin-top: 10px;
 }
 #e{
     display: flex;
@@ -94,11 +101,12 @@
     /* border: 2px solid red; */
     justify-content: space-around;
     margin: auto;
-    border-radius: 30px;
+    border-radius: 20px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     position: relative;
-    top: 25px;
+    top: -65px;
+    height: 55px;
 }
 #e>div{
     border-right: 1px solid gray;
@@ -112,14 +120,15 @@
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   position: relative;
-  top: 30px;
-  left: 330px;
+  top: 20px;
+  left: 260px;
+  height: 80px;
 }
 #s>div{
   width: 10%;
 }
 #s h3{
-  font-size: 14px;
+  font-size: 9px;
 }
 #s img{
   margin-top: 15px;
@@ -128,7 +137,6 @@
 }
 a img{
     width: 50%;
-    mix-blend-mode: multiply;
     margin-top: 5px;
     margin-left: 20px;
     margin-top: 5px;
@@ -160,7 +168,7 @@ a{
   .cards>div{
     margin-left: 20px;
   }
-  .cards>div>h4{
+  .cards>div>a{
     color: #15457c;
     position: relative;
     left: 200px;
@@ -181,6 +189,7 @@ a{
     width: 80%;
     margin: auto;
     margin-top: 20px;
+    height: 110px;
   }
   .cards1{
     margin-top: 20px;
@@ -204,7 +213,7 @@ a{
   }
   .container img{
     width: 100%;
-    height: 240px;
+    height: 200px;
   }
   .container{
     width: 100%;
@@ -291,12 +300,12 @@ a{
   border-radius: 20px;
   text-align: center;
   position: relative;
-  left: 690px;
-  bottom: 85px;
+  left: 580px;
+  bottom: 145px;
  }
  #search>a{
   color: white;
-  font-size: 25px;
+  font-size: 15px;
  }
 
 
