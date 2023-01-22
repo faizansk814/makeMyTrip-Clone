@@ -4,48 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTEL</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+    
     <link rel="stylesheet" href="./hotel.css">
 </head>
 <body>
     <div id="parent">
-        <div class="nav1">
+        <div id="nav1">
             <div id="a">
-                <img src="./Yellow Navy Modern Travel logo.png" alt="">
+                <img src="./logo.png" alt="">
             </div>
             <div id="b">
-               <div>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKiQAZXSn--PR5g3H1VfwoRtpdiBHoKtJNTw&usqp=CAU" alt="">
                 <div>
-                    <h5>Super offers</h5>
-                    <p>Explore Great Deals</p>
+                    <img src="./offer.png" alt="">
                 </div>
-               </div>
-               <div>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsDPwzHutYBlfzo9jypFCUBN63QaCdwXWWYPa1bEtU&s" alt="">
                 <div>
-                    <h5>Introduction My bizz</h5>
-                    <p>Bussiness Travel solution</p>
+                    <h4>Super Offers</h4>
+                    <p>Explore Great Deal Offers</p>
                 </div>
-               </div>
-               <div>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEzPZ8h3WFr-A1p70H50Eni-nFll3PF2pIqQ&usqp=CAU" alt="">
                 <div>
-                    <h5>My Trips</h5>
-                    <p> Manage Bookings</p>
+                    <img src="./suit.png" alt="" class="img">
                 </div>
-               </div>
+                <div>
+                    <h4>Super Offers</h4>
+                    <p>Explore Great Deal Offers</p>
+                </div>
+                <div>
+                    <img src="./lock.png" alt="" class="img">
+                </div>
+                <div>
+                    <h4>Super Offers</h4>
+                    <p>Explore Great Deal Offers</p>
+                </div>
+                <div>
+                    <a href="./login.html" target="_blank">
+                        <img src="./sign.png" alt="">
+                    </a>
+                </div>
+
             </div>
         </div>
+
         <div id="s">
             <div>
-                <a href="" >
+                <a href="./index.html" target="_blank" >
                     <img src="./flight.png" alt="">
                     <h3>Flights</h3>
                 </a>
             </div>
             <div>
-                <a href="Hotel.html" target="_blank" >
+                <a href="" target="_blank" >
                     <img src="./hotel.png" alt="">
                     <h3>Hotels</h3>
                 </a>
@@ -98,36 +119,29 @@
                     <h3>Activities</h3>
                 </a>
             </div>
-            
         </div>
         <div id="d">
             <div>
-                <input type="radio" name="Trip" value="a">One Way
-                <input type="radio" name="Trip" value="b">Round Trip
-                <input type="radio" name="Trip" value="c">Multicity
+                <input type="radio" name="Trip" value="a">UPTO 5 ROOMS
+                <input type="radio" name="Trip" value="b">GROUP DEALS
             </div>
             <div class="q">
                 <div class="ab">
-                    <p>From</p>
-                    <h2>Delhi</h2>
-                    <p>DEL,Delhi Airport India</p>
-                </div>
-                <div class="ab">
-                    <p>To</p>
-                    <h2>Delhi</h2>
-                    <p>BLR,Benglaru International Airport...</p>
+                    <p>CITY, PROPERTY NAME OR LOCATION</p>
+                    <h2>GOA</h2>
+                    <p>INDIA</p>
                 </div>
                 <div class="date">
-                    <h3>Departure</h3>
-                   <input type="date">
+                    <h3>CHECK IN</h3>
+                   <input type="date" class="g">
                 </div>
                 <div class="date">
-                    <h3>Return</h3>
-                   <input type="date">
+                    <h3>CHECK OUT</h3>
+                   <input type="date" class="g">
                 </div>
                 <div id="select">
-                    <select name="">
-                        <option value="">Travel & class</option>
+                    <select class="g">
+                        <option value="">ROOM AND GUEST</option>
                         <optgroup label="Adults">
                                 <option value="">1</option>
                                 <option value="">2</option>
@@ -153,21 +167,266 @@
                             <option value="">6</option>
                         </optgroup>
                     </select>
-                    <h2></h2>
+                    <p><span>1</span>ROOM AND <span>2</span>ADULTS</p>
+                </div>
+                <div>
+                    <select  class="g">
+                        <option value="">PRICE PER NIGHT</option>
+                        <option value="">$0-$500</option>
+                        <option value="">$500-$1000</option>
+                        <option value="">$1000-$2500</option>
+                        <option value="">$2500-$5000</option>
+                    </select>
+                    <p>$0-$500,$500-$1000</p>
+                    <p>$2500...</p>
                 </div>
             </div>
-            <div id="low">
-                Select a fair type
-                <input type="radio" name="Trip" value="a">Regular Fares
-                <input type="radio" name="Trip" value="b">Armed Fares
-                <input type="radio" name="Trip" value="c">Student Fares
-                <input type="radio" name="Trip" value="c">Senior citizen Fares
-                <input type="radio" name="Trip" value="c">Doctor & Nurse Fares
+        </div>
+        <div id="search">
+            <a href="./Flightsearch.html">Search</a>
+        </div>
+    </div>
+    <div id="ew">
+        <img src="https://mmt.servedbyadbutler.com/getad.img/;libID=3719687" alt="">
+    </div>
+    <div id="middle">
+        <h1>OFFERS</h1>
+        <div id="middle1">
+            <div class="cards">
+                <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop_IntlHotels_StampThatPassportSale_19Jan@2x.jpg" alt="">
+                <div>
+                    <h2>Grab upto 25% on Domestic Flights</h2>
+                    <p>with our Republic of Travel Deals</p>
+                    <a href="./flightbook.html">Book Now</a>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="https://promos.makemytrip.com/notification/xhdpi//dh-Kotak-116x116-22102021.jpg" alt="">
+                <div>
+                    <h2>Grab upto 25% on Domestic Flights</h2>
+                    <p>with our Republic of Travel Deals</p>
+                    <a href="./flightbook.html">Book Now</a>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="https://promos.makemytrip.com/notification/xhdpi//116X116-IH-HoneyMoon-21112022.jpg" alt="">
+                <div>
+                    <h2>Grab upto 25% on Domestic Flights</h2>
+                    <p>with our Republic of Travel Deals</p>
+                    <a href="./flightbook.html">Book Now</a>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="https://promos.makemytrip.com/notification/xhdpi//oyo-116x116-10112022.jpg" alt="">
+                <div>
+                    <h2>Grab upto 25% on Domestic Flights</h2>
+                    <p>with our Republic of Travel Deals</p>
+                    <a href="./flightbook.html">Book Now</a>
+                </div>
             </div>
         </div>
-        <h5>Explore more</h5>
     </div>
-   
+    <div id="middle2">
+        <div class="cards1">
+            <img src="https://promos.makemytrip.com/notification/xhdpi/Vande-Flight-10072020.png" alt="">
+            <p>Planning to book an international flight?Call 0124-4628 for booking Assistance</p>
+        </div>
+        <div class="cards1">
+            <img src="https://promos.makemytrip.com/Growth/Images/B2C/2x/language1@2x_20210901.png" alt="">
+            <p>We are now availabe in Hindi</p>
+        </div>
+        <div class="cards1">
+            <img src="https://promos.makemytrip.com/notification/xhdpi/web-check-in-116x116-23062020.png" alt="">
+            <p>Complete your webcheck in on Make my trip in Easy Steps</p>
+        </div>
+    </div>   
+    <div id="middle3">
+        <img src="https://mmt.servedbyadbutler.com/getad.img/;libID=3707123" alt="">
+    </div>
+    <div id="middle4">
+        <h1>Handpicked Collection For You</h1>
+        <section class="slider-container">
+            <div class="container">
+                <div class="swiper cart_slider">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                        <img src="https://hblimg.mmtcdn.com/content/hubble/img/collections/m_romantic44_p_540_417.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="https://hblimg.mmtcdn.com/content/hubble/img/collections/m_honeymoon11_p_540_417.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="https://hblimg.mmtcdn.com/content/hubble/img/collections/m_honeymoon11_p_540_417.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="https://hblimg.mmtcdn.com/content/hubble/img/collections/m_beach44_p_540_417.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="https://hblimg.mmtcdn.com/content/hubble/img/collections/m_weekend44_p_540_417.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="https://hblimg.mmtcdn.com/content/hubble/img/collections/m_hill_stations11_p_540_417.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="https://hblimg.mmtcdn.com/content/hubble/img/collections/m_hill_stations11_p_540_417.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="https://hblimg.mmtcdn.com/content/hubble/img/collections/m_hill_stations11_p_540_417.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="https://hblimg.mmtcdn.com//content/hubble/img/amritsar/mmt/destination/m_Amritsar_activity_heritage_l_684_1026.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="https://hblimg.mmtcdn.com/content/hubble/img/collections/m_pilgrimage44_p_540_417.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="https://hblimg.mmtcdn.com//content/hubble/img/alleppey/mmt/destination/m_destination-alleppey-landscape_l_400_640.jpg" alt="">
+                      </div>
+                      ...
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                  </div>
+            </div>
+        </section>
+        
+        
+    </div>
+    <div id="middle5">
+        <h1>Unlock Lesser-Known Wonders of India</h1>
+        <section class="slider-container">
+            <div class="container">
+                <div class="swiper cart_slider">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                        <img src="https://hblimg.mmtcdn.com//content/hubble/img/narkanda/mmt/destination/m_Narkanda_l_372_902.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="https://hblimg.mmtcdn.com//content/hubble/img/yercaud/mmt/destination/m_destination-yercaud-landscape_l_400_640.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="https://hblimg.mmtcdn.com//content/hubble/img/dooars/mmt/destination/m_Dooars_l_457_685.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="https://hblimg.mmtcdn.com//content/hubble/img/saputara/mmt/destination/m_destination-saputara-landscape_l_400_640.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="https://hblimg.mmtcdn.com//content/hubble/img/saputara/mmt/destination/m_destination-saputara-landscape_l_400_640.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="https://hblimg.mmtcdn.com//content/hubble/img/mandarmani/mmt/destination/m_destination-mandarmoni-landscape_l_400_640.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="https://hblimg.mmtcdn.com//content/hubble/img/mandarmani/mmt/destination/m_destination-mandarmoni-landscape_l_400_640.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="https://hblimg.mmtcdn.com//content/hubble/img/malvan/mmt/destination/m_Malvan_l_636_847.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="https://hblimg.mmtcdn.com//content/hubble/img/amritsar/mmt/destination/m_Amritsar_activity_heritage_l_684_1026.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="https://hblimg.mmtcdn.com/content/hubble/img/collections/m_pilgrimage44_p_540_417.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="https://hblimg.mmtcdn.com//content/hubble/img/alleppey/mmt/destination/m_destination-alleppey-landscape_l_400_640.jpg" alt="">
+                      </div>
+                      ...
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                  </div>
+            </div>
+        </section>  
+    </div>
+    <div id="footer">
+        <div class="foot">
+            <h5>PRODUCT OFFERING</h5>
+            <p>Flights, International Flights, Charter Flights, Hotels, International Hotels, Homestays and Villas, Activities, Holidays In India, International Holidays, Book Hotels From UAE, myBiz for Corporate Travel, Book Online Cabs, Book Bus Tickets, Book Train Tickets, Cheap Tickets to India, Book Flights From US, Book Flights From UAE, Trip Planner, Gift Cards, Trip Money, Trip Ideas, Travel Blog, PNR Status, MakeMyTrip Advertising Solutions, One Way Cab</p>
+        </div>
+        <div class="foot">
+            <h5>MAKEMYTRIP</h5>
+            <p>About Us, Investor Relations, Careers, MMT Foundation, CSR Policy, myPartner - Travel Agent Portal, Foreign Exchange, List your hotel, Partners- Redbus, Partners- Goibibo, Advertise with Us</p>
+        </div>
+        <div class="foot">
+            <h5>ABOUT THE SITE</h5>
+            <p>Customer Support, Payment Security, Privacy Policy, User Agreement, Terms of Service, More Offices, Make A Payment, Work From Home</p>
+        </div>
+        <div class="foot">
+            <h5>TOP HOTELS IN INDIA</h5>
+            <p>Fairmont Jaipur, St Regis Goa, Six Senses Fort Barwara, W Goa, Grand Hyatt Goa, Shangri-La Bangalore, The St Regis Mumbai, Taj Rishikesh, Grand Hyatt Mumbai, Le Meridien Delhi, Rambagh Palace Jaipur, Leela Palace Chennai, The Leela Palace Udaipur, Taj Lake Palace Udaipur, Jw Marriott Chandigarh, Alila Diwa Goa, Le Meridien Goa, Taj Lands End Mumbai, Itc Grand Chola Chennai, Itc Maratha Mumbai, Oberoi Udaivilas, Jai Mahal Palace Jaipur, Taj Mahal Tower Mumbai, Marriott Suites Pune, Park Hyatt Chennai, The Leela Palace Jaipur, Jw Marriott Mumbai Sahar, Jw Marriott Mumbai Juhu, The Ritz Carlton Bengaluru, The Oberoi New Delhi, Taj Resort & Convention Centre Goa, Taj Bengal Kolkata, Taj Coromandel Chennai, The Oberoi Gurgaon, The Westin Goa, Jw Marriott Hotel Pune, The Leela Palace New Delhi, Taj West End Bengaluru, The Taj Mahal Palace Mumbai</p>
+        </div>
+        <div class="foot">
+            <h5>TOP INTERNATIONAL HOTELS</h5>
+            <p>Adaaran Club Rannalhi, Marina Bay Sands Singapore, Coco Bodu Hithi, Taj Dubai, Atlantis Hotel Dubai, Amari Phuket, Jw Marriott Dubai, Armani Hotel Dubai, Grand Hyatt Dubai, Saii Lagoon Maldives, Gevora Hotel Dubai, Hyatt Regency Dubai, Pan Pacific Singapore, The Palm Dubai, Caesars Palace, Baiyoke Sky Hotel, Centara Pattaya Hotel, Embudu Village, Orchard Hotel Singapore, Reethi Beach Resort, Ambassador Hotel Bangkok, Dusit Thani Pattaya, Shangri La Singapore, Sunbeam Hotel Pattaya, Taj Samudra Colombo, Bangkok Palace Hotel, Hilton Pattaya, Novotel Phuket Resort, Taj Exotica Resort Maldives, Village Hotel Bugis, Avani Atrium Bangkok, The Plaza New York, Village Hotel Albert Court, Amari Pattaya</p>
+        </div>
+        <div class="foot">
+            <h5>QUICK LINKS</h5>
+            <p>Delhi Chennai Flights, Delhi Mumbai Flights, Delhi Goa Flights, Chennai Mumbai flights, Mumbai Hyderabad flights, Kolkata to Rupsi Flights, Rupsi to Guwahati Flights, Pasighat to Guwahati Flights, Delhi to Khajuraho Flights, Cochin to Agatti Island Flights, Hotels in Delhi, Hotels in Mumbai, Hotels In Goa, Hotels In Jaipur, Hotels In Ooty, Hotels In Udaipur, Hotels in Puri, Hotels In North Goa, Hotels In Rishikesh, Honeymoon Packages, Kerala Packages, Kashmir Packages, Ladakh Packages, Goa Packages, Thailand Packages, Sri Lanka Visa, Thailand Visa, Explore Goa, Explore Manali, Explore Shimla, Explore Jaipur, Explore Srinagar</p>
+        </div>
+        <div class="foot">
+            <h5>IMPORTANT LINKS</h5>
+            <p>Cheap Flights, Flight Status, Kumbh Mela, Domestic Airlines, International Airlines, Indigo, Spicejet, GoAir, Air Asia, Air India, Indian Railways, Trip Ideas, Beaches, Honeymoon Destinations, Romantic Destinations, Popular Destinations, Resorts In Udaipur, Resorts In Munnar, Villas In Lonavala, Hotels in Thailand, Villas In Goa, Domestic Flight Offers, International Flight Offers, UAE Flight Offers, USA, UAE, Saudi Arabia, UK, Oman</p>
+        </div>
+        <div class="foot">
+            <h5>CORPORATE TRAVEL</h5>
+            <p>Corporate Travel, Corporate Hotel Booking, Corporate Flight Booking, Business Travel for SME, GST Invoice for International flights, Business Travel Solutions, GST Invoice for Bus, Corporate Bus booking, myBiz - Best Business Travel Platform, GST Invoice for Flights, GST Invoice for Corporate Travel, GST Invoice for Hotels, myBiz for Small Business, Free cancellation on International Flights</p>
+        </div>
+    </div>
+    <div id="footer2">
+        <div class="foot1">
+            <h4>Why MakeMyTrip?</h4>
+            <p>Established in 2000, MakeMyTrip has since positioned itself as one of the leading companies, providing great offers, competitive airfares, exclusive discounts, and a seamless online booking experience to many of its customers. The experience of booking your flight tickets, hotel stay, and holiday package through our desktop site or mobile app can be done with complete ease and no hassles at all. We also deliver amazing offers, such as Instant Discounts, Fare Calendar, MyRewardsProgram, MyWallet, and many more while updating them from time to time to better suit our customers’ evolving needs and demands.</p>
+        </div>
+        <div class="foot1">
+            <h4>Booking Flights with MakeMyTrip</h4>
+            <p>At MakeMyTrip, you can find the best of deals and cheap air tickets to any place you want by booking your tickets on our website or app. Being India’s leading website for hotel, flight, and holiday bookings, MakeMyTrip helps you book flight tickets that are affordable and customized to your convenience. With customer satisfaction being our ultimate goal, we also have a 24/7 dedicated helpline to cater to our customer’s queries and concerns. Serving over 5 million happy customers, we at MakeMyTrip are glad to fulfill the dreams of folks who need a quick and easy means to find air tickets. You can get a hold of the cheapest flight of your choice today while also enjoying the other available options for your travel needs with us.</p>
+        </div>
+        <div class="foot1">
+            <h4>Domestic Flights with MakeMyTrip</h4>
+            <p>MakeMyTrip is India's leading player for flight bookings. With the cheapest fare guarantee, experience great value at the lowest price. Instant notifications ensure current flight status, instant fare drops, amazing discounts, instant refunds and rebook options, price comparisons and many more interesting features.</p>
+        </div>
+    </div>
+    <div id="footer3">
+        <div class="foot2">
+            <a href="https://twitter.com/makemytrip/">
+                <img src="./twitter.svg" alt="">
+            </a>
+            <a href="https://www.facebook.com/makemytrip/">
+                <img src="./face.svg" alt="">
+
+            </a>
+        </div>
+        <div>
+            <h5>© 2023 MAKEMYTRIP PVT. LTD.</h5>
+            <p>Country India USA UAE</p>
+        </div>
+    </div>
+
+    
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="./flights.js"></script>
+
     
 </body>
 </html>
